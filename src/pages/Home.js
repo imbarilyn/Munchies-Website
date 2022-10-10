@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className='home'>
       <div className='headerContainer' style={{backgroundImage: `url(${heroImage})`}} >
-        <h1>Imbari's Pizza Point</h1>
+        <h1>Imbari's Pizza</h1>
         <p>LET'S GIVE YOU A TASTE OF HEAVEN</p>
         <button onClick={()=>navigate("/menu")}>ORDER NOW</button>
       </div>
