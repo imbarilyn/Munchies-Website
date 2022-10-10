@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import heroImage from '../assets/pizza.jpeg'
+import '../styles/Home.css'
 
 function Home() {
   const navigate = useNavigate()
